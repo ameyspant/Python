@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python $WORKSPACE/hello.py'
+                sh 'python3.5 $WORKSPACE/hello.py'
             }
         }
     }
